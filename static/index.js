@@ -412,15 +412,15 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
         }
 
         if (mode === MODE_ENDLESS) {
-            if (score <= 5) return '人间至屑';
-            if (score <= 8) return '斯国一(迫真)';
-            if (score <= 10)  return 'sodayo';
-            return '压力马斯内';
+            if (score <= 5) return '韦宗顺SB';
+            if (score <= 8) return '韦宗顺大SB';
+            if (score <= 10)  return '韦宗顺超级SB';
+            return '柒乐帅哥';
         } else {
-            if (score <= 49) return '人间至屑';
-            if (score <= 99) return '斯国一(迫真)';
-            if (score <= 149) return 'sodayo';
-            return '压力马斯内';
+            if (score <= 49) return '柒乐yyds';
+            if (score <= 99) return '厉害';
+            if (score <= 149) return '吆西';
+            return '韦宗顺SB';
         }
     }
 
@@ -458,7 +458,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
     function initSetting() {
         document.getElementById("username").value = cookie("username") ? cookie("username") : "";
         document.getElementById("message").value = cookie("message") ? cookie("message") : "";
-        document.getElementsByTagName("title")[0].innerText = cookie("title") ? cookie("title") : "撅 仙 贝 罢";
+        document.getElementsByTagName("title")[0].innerText = cookie("title") ? cookie("title") : "干掉韦宗顺";
         if (cookie("keyboard")) {
             document.getElementById("keyboard").value = cookie("keyboard");
             map = {}
