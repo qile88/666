@@ -418,8 +418,8 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             return '柒乐帅哥';
         } else {
             if (score <= 49) return '柒乐yyds';
-            if (score <= 99) return '厉害';
-            if (score <= 149) return '吆西';
+            if (score <= 99) return '韦宗顺SB';
+            if (score <= 149) return '韦宗顺SB';
             return '韦宗顺SB';
         }
     }
