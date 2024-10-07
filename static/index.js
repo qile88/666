@@ -412,15 +412,15 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
         }
 
         if (mode === MODE_ENDLESS) {
-            if (score <= 5) return '韦宗顺SB';
-            if (score <= 8) return '韦宗顺大SB';
-            if (score <= 10)  return '韦宗顺超级SB';
-            return '柒乐帅哥';
+            if (score <= 5) return '屑屑你';
+            if (score <= 8) return '屑屑你';
+            if (score <= 10)  return '屑屑你';
+            return '屑屑你';
         } else {
-            if (score <= 49) return '柒乐yyds';
-            if (score <= 99) return '韦宗顺SB';
-            if (score <= 149) return '韦宗顺SB';
-            return '韦宗顺SB';
+            if (score <= 49) return '屑屑你';
+            if (score <= 99) return '屑屑你';
+            if (score <= 149) return '屑屑你';
+            return '屑屑你';
         }
     }
 
@@ -458,7 +458,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
     function initSetting() {
         document.getElementById("username").value = cookie("username") ? cookie("username") : "";
         document.getElementById("message").value = cookie("message") ? cookie("message") : "";
-        document.getElementsByTagName("title")[0].innerText = cookie("title") ? cookie("title") : "干掉韦宗顺";
+        document.getElementsByTagName("title")[0].innerText = cookie("title") ? cookie("title") : "干掉周萎";
         if (cookie("keyboard")) {
             document.getElementById("keyboard").value = cookie("keyboard");
             map = {}
